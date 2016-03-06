@@ -6,8 +6,8 @@
         <%= render partial: "shared/error_messages", object: resource %>
 
         <div class="Form-group">
-            <%= f.label :email %><br />
-            <%= f.email_field :email, autofocus: true, class: "Form-control" %>
+            <%= f.label("Your Username:") %><br />
+            <%= f.text_field :username, autofocus: true, class: "Form-control" %>
         </div>
 
         <div class="Form-group">
